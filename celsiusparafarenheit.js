@@ -9,7 +9,7 @@ function convertercelsiusparafarenheit(){
 
     farenheit = (celsius*9/5) + 32;
 
-    document.getElementById("test").innerHTML = farenheit;
+    document.getElementById("farenheitoutput").innerHTML = farenheit;
 
 
 }
