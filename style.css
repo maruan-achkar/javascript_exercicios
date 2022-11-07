@@ -4,7 +4,13 @@ body{
     background-color: rgb(39, 39, 39);
     font-family: Arial;
 }
-.trocarvariaveis{
+header{
+    background-color:deepskyblue;
+}
+a{
+    color: black;
+}
+.div{
     background-color: antiquewhite;
     border: 3px solid black;
     margin: 1vw;
