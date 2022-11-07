@@ -1,4 +1,7 @@
 # Exercícios Javascript
+
+https://maruan-achkar.github.io/javascript_exercicios/
+
 Instruções
 
 Resolva, através de pequenos programas em javascript, o seguinte:
