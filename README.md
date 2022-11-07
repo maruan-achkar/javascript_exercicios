@@ -2,6 +2,8 @@
 
 https://maruan-achkar.github.io/javascript_exercicios/
 
+Bom dia professor, nao sei se vc queria so um arquivo javascript com varias funcoes, ou varios arquivos com uma funcao em cada entao decidi fazer varios arquivos. De qualquer forma, da pra juntar todos eles no mesmo pois usei botoes para executar diretamente as funcoes.
+
 Instruções
 
 Resolva, através de pequenos programas em javascript, o seguinte:
