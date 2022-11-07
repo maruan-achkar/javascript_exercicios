@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    font-family: Arial;
+}
+.trocarvariaveis{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    margin: 1vw;
+}
