@@ -9,6 +9,6 @@ function trocarvariaveis(){
     x=y;
     y=temp;
 
-    document.getElementById("trocarvariaveis1").innerHTML +=x;
-    document.getElementById("trocarvariaveis2").innerHTML +=y;
+    document.getElementById("trocarvariaveis1").innerHTML ='novo x = ' + x;
+    document.getElementById("trocarvariaveis2").innerHTML ='novo y = ' + y;
 }
