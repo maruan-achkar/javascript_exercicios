@@ -58,3 +58,9 @@ a:hover{
     margin-left: 5vw;
     margin-right: 5vw;
 }
+.backtotop{
+    float: right;
+    font-weight: bolder;
+    font-size: 0.7em;
+    margin-right: 1vw;
+}
