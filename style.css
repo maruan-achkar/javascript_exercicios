@@ -38,9 +38,13 @@ a{
     color: black;
     font-size: 1.75em;
     margin-left: 2vw;
+    text-decoration: none;
 }
 a:hover{
     color: rgb(0, 132, 255);
+}
+.link{
+    text-decoration: underline;
 }
 .div{
     background-color: #F6F7EB;
