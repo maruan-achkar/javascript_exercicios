@@ -22,13 +22,13 @@
               <a href="#areacirculo">Area Circulo<br></a>
               <a href="#parouimpar">Par ou Impar<br></a>
               <a href="#intervalo">Intervalo entre numeros<br></a>
+              <a href="#intervalovetor">Intervalo entre maior e menor de vetor<br></a>
             </div>
           </div>
           <div class="backtotop">
             <a href="#">Voltar ao topo</a>
           </div>
     </header>
-
 
     <div id="trocarvariaveis" class="div">
     <script src="trocarvariaveis.js"></script>
@@ -84,6 +84,17 @@
         <input id="intervaloinput1" type="number">
         <input id="intervaloinput2" type="number">
         <p id="intervalooutput"></p>
+    </div>
+
+    <div id="intervalovetor" class="div">
+        <script src="intervalovetor.js"></script>
+        <h1>Intervalo entre maior e menor numero de um vetor</h1>
+        <p>Abaixo, insira os numeros do seu vetor:</p>
+        <button onclick="intervalovetor()">Adicionar ao vetor</button>
+        <input id="vetorinput" type="number">
+        <p id="vetoroutput"></p>
+        <button onclick="calcularintervalo()">Calcular intervalo</button>
+        <p id="intervalovetoroutput"></p>
     </div>
 
 
