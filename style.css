@@ -103,3 +103,7 @@ a:hover{
         height: 150px;
     }
 }
+footer{
+    margin-left: 2px;
+    font-size: 0.9em;
+}
