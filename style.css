@@ -8,19 +8,28 @@ body{
     float: left;
     background-color: #F6F7EB;
     height: 100%;
+    width: 100px;
+  }
+  .dropdown-title-container{
+    background-color: #DC3318;
+    height: 100%;
+    display: flex;
+    justify-content: center;
   }
   .dropdown-title{
     font-family: Arial;
     font-weight: bolder;
     font-size: 1.75em;
+    line-height: 100%;
   }
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 48px;
     background-color: #F6F7EB;
     padding-right: 15px;
-    outline: solid black;
-    box-shadow: 0px 0px 25px black;
+    outline: solid black 3px;
+    box-shadow: 0px 10px 15px black;
     border-radius: 0.1vw;
     font-size: 0.8em;
   }
@@ -28,17 +37,14 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-a{
+  .dropdowna{
     color: black;
     font-size: 1.75em;
     margin-left: 2vw;
     text-decoration: none;
-}
+  }
 a:hover{
     color: rgb(0, 132, 255);
-}
-.link{
-    text-decoration: underline;
 }
 .div{
     background-color: #F6F7EB;
@@ -51,20 +57,6 @@ a:hover{
     padding-bottom: 0vw;
     margin-left: 5vw;
     margin-right: 5vw;
-}
-.backtotop{
-    float: right;
-    font-weight: bolder;
-    font-size: 0.7em;
-    margin-right: 2vw;
-}
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 35px;
-    background-color: #DC3318;
-    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.65);
 }
 #trocarvariaveis{
     margin-top: 50px;
@@ -106,4 +98,63 @@ a:hover{
 footer{
     margin-left: 2px;
     font-size: 0.9em;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #DC3318;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.65);
+}
+.headerdiv{
+    background-color: greenyellow;
+    height: 100%;
+    width: 100%;
+}
+.backtotop{
+    font-weight: bolder;
+    font-size: 0.75em;
+    margin-right: 0;
+    height: 100%;
+    width: 160px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.backtotoptext{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 1.55em;
+    margin-right: 12px;
+}
+.material-symbols-outlined{
+    text-decoration: none;
+    margin-right: -30px;
+    margin-bottom: 3px;
+    color: black;
+}
+.backtotop:hover .backtotoptext{
+    color: rgb(0, 132, 255);
+}
+.backtotop:hover .material-symbols-outlined{
+    color: rgb(0, 132, 255);
+}
+.githubcontainer{
+    width: 200px;
+    height: 100%;
+    float: right;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.githublink{
+    color: black;
+    margin: auto;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+.githublink:hover{
+    text-decoration: underline;
 }
