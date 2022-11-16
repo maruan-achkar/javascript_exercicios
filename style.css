@@ -26,13 +26,17 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    top: 48px;
+    top: 45px;
+    border: solid black 3px;
+    box-sizing: border-box;
     background-color: #F6F7EB;
     padding-right: 15px;
-    outline: solid black 3px;
     box-shadow: 0px 10px 15px black;
-    border-radius: 0.1vw;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     font-size: 0.8em;
+    margin-left: -34px;
   }
   
   .dropdown:hover .dropdown-content {
