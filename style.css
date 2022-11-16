@@ -149,6 +149,9 @@ footer{
     border: solid 1px black;
     background-color: #F6F7EB;
 }
+.searchbarinput:focus{
+    outline: none;
+}
 .serchbarbutton{
     height: 36px;
     width: 36px;
