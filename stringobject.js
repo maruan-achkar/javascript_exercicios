@@ -38,26 +38,25 @@ function stringobject(){
     }
     
     //limpar o texto caso o usuario mude de string para outra coisa e aperte o botao.
-    else if(!isNaN(objeto.nome.value)){
+    if(!isNaN(objeto.nome.value)){
         document.getElementById("stringobjectoutputnome").innerHTML = '';
     }
-    else if(!isNaN(objeto.idade.value)){
+    if(!isNaN(objeto.idade.value)){
         document.getElementById("stringobjectoutputidade").innerHTML = '';
     }
-    else if(!isNaN(objeto.dia.value)){
+    if(!isNaN(objeto.dia.value)){
         document.getElementById("stringobjectoutputdia").innerHTML = '';
     }
-    else if(!isNaN(objeto.mes.value)){
+    if(!isNaN(objeto.mes.value)){
         document.getElementById("stringobjectoutputmes").innerHTML = '';
     }
-    else if(!isNaN(objeto.ano.value)){
+    if(!isNaN(objeto.ano.value)){
         document.getElementById("stringobjectoutputano").innerHTML = '';
     }
-    else if(!isNaN(objeto.emprego.value)){
+    if(!isNaN(objeto.emprego.value)){
         document.getElementById("stringobjectoutputemprego").innerHTML = '';
     }
-    else if(!isNaN(objeto.salario.value)){
+    if(!isNaN(objeto.salario.value)){
         document.getElementById("stringobjectoutputsalario").innerHTML = '';
     }
-
 }
