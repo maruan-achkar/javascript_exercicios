@@ -66,40 +66,6 @@ a:hover{
 #trocarvariaveis{
     margin-top: 50px;
 }
-
-@media(max-width:680px){
-    .sticky{
-        height: 60px;
-    }
-}
-@media(max-width:520px){
-    .dropdown{
-        height: 30px;
-    }
-    .sticky{
-        height: 65px;
-    }
-}
-@media(max-width:331px){
-    .sticky{
-        height: 85px;
-    }
-}
-@media(max-width:320px){
-    .sticky{
-        height: 100px;
-    }
-}
-@media(max-width:307px){
-    .sticky{
-        height: 120px;
-    }
-}
-@media(max-width:154px){
-    .sticky{
-        height: 150px;
-    }
-}
 footer{
     margin-left: 2px;
     font-size: 0.9em;
