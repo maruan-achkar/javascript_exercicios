@@ -200,3 +200,50 @@ footer{
     padding: 0;
     list-style-type: none;
   }
+  .githublink2{
+    color: black;
+    margin: auto;
+    font-size: 1.35em;
+    text-decoration: none;
+    display: none;
+}
+.githublink2:hover{
+    text-decoration: underline;
+}
+  @media screen and (max-width: 824px) {
+    .searchbarcontainer {
+      display: none;
+    }
+    .githubcontainer{
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 490px){
+    .githublink{
+      display: none;
+    }
+    .githublink2{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 420px){
+    .githublink2{
+      width: 100%;
+      text-align: end;
+      margin-right: 20px;
+      font-size: 1.25em;
+    }
+  }
+  @media screen and (max-width: 380px){
+    .githublink2{
+      margin-right: 10px;
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .githublink2{
+      display: none;
+    }
+  }
+  
