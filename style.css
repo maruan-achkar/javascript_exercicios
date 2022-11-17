@@ -186,7 +186,23 @@ footer{
     left: 141px;
     width: 267px;
     background-color: #f5f3e6;
-    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.75);
+    border: solid black 1px;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 250px;
+  }
+  .searchbardropdown:hover{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 141px;
+    width: 267px;
+    background-color: #f5f3e6;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.75);
     border: solid black 1px;
     box-sizing: border-box;
     font-size: 0.75em;
