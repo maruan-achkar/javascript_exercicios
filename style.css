@@ -219,6 +219,9 @@ footer{
   #searchbarnoresult{
     display: none;
   }
+  .noResults #searchbarnoresult {
+    display: block;
+  }
   #searchbarnoresult:hover{
     color: black;
   }
