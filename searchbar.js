@@ -4,6 +4,7 @@ function search(){
     filter = input.value.toUpperCase();
     dropdown = document.getElementById("searchbardropdown");
     li = dropdown.getElementsByTagName('li');
+    noresult = document.getElementById("searchbarnoresult");
 
     for(i=0; i < li.length; i++){
         a = li[i].getElementsByTagName("a")[0];

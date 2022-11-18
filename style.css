@@ -215,6 +215,12 @@ footer{
     overflow-y: auto;
     max-height: 250px;
   }
+  #searchbarnoresult{
+    display: none;
+  }
+  #searchbarnoresult:hover{
+    color: black;
+  }
   ul{
     margin: 0;
     padding: 0;
